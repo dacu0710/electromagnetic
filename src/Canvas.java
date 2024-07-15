@@ -60,7 +60,6 @@ public class Canvas  extends java.awt.Canvas implements MouseListener {
         double unitDy = dy/R;
         double endX = E2.x+unitDx * F/10000;
         double endY = E2.y+unitDy * F/10000;
-        System.out.println(unitDx +","+unitDy);
         g.draw(new Line2D.Double(E2.x, E2.y, endX, endY));
     }
 
